@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal portfolio of a coder, programmer, web developer and graphic designer.">
+  <title>My Portfolio | Developer & Designer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="scroll-progress" id="scrollProgress"></div>
+
+  <header class="header" id="header">
+    <nav class="navbar container">
+      <a href="#home" class="logo"><span>&lt;</span>Dev<span>/&gt;</span></a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <div class="nav-links" id="navLinks">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero section" id="home">
+      <div class="hero-bg"></div>
+      <div class="container hero-grid">
+        <div class="hero-content reveal">
+          <p class="eyebrow"><span class="dot"></span> Available for creative projects</p>
+          <h1>Hi, I'm a <span class="gradient-text">KESAR JAISWAL</span></h1>
+          <h2>I build digital experiences that look great and work beautifully.</h2>
+          <p class="hero-description">
+            A programmer, web developer and graphic designer who enjoys turning ideas into
+            clean, responsive and engaging digital products.
+          </p>
+
+          <div class="hero-buttons">
+            <a class="btn btn-primary" href="#projects">Explore My Work <span>↗</span></a>
+            <a class="btn btn-secondary" href="#contact">Let's Connect</a>
+          </div>
+
+          <div class="quick-skills">
+            <span>Java</span><span>C</span><span>C++</span><span>HTML</span>
+            <span>CSS</span><span>JavaScript</span>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal">
+          <div class="orb orb-one"></div>
+          <div class="orb orb-two"></div>
+          <div class="code-card">
+            <div class="code-top">
+              <div class="window-dots"><i></i><i></i><i></i></div>
+              <span>developer.js</span>
+            </div>
+            <pre><code><span class="pink">const</span> developer = {
+  role: <span class="green">"Web Developer"</span>,
+  skills: [
+    <span class="green">"Java"</span>, <span class="green">"C++"</span>,
+    <span class="green">"HTML"</span>, <span class="green">"CSS"</span>,
+    <span class="green">"JavaScript"</span>
+  ],
+  creative: <span class="blue">true</span>,
+  problemSolver: <span class="blue">true</span>
+};</code></pre>
+            <div class="code-cursor"></div>
+          </div>
+          <div class="floating-badge badge-one">✦ Creative</div>
+          <div class="floating-badge badge-two">⌘ Developer</div>
+          <div class="floating-badge badge-three">◈ Designer</div>
+        </div>
+      </div>
+      <a href="#about" class="scroll-down" aria-label="Scroll to About">↓</a>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section about" id="about">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="section-label">01 / ABOUT ME</p>
+          <h2>Code with logic.<br><span>Design with purpose.</span></h2>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-card glass reveal">
+            <div class="about-icon">⌘</div>
+            <h3>Developer Mindset</h3>
+            <p>
+              I love solving problems, learning technologies and building interfaces that are
+              simple for users and satisfying to use.
+            </p>
+          </div>
+
+          <div class="about-text reveal">
+            <p class="lead">
+              I'm passionate about combining <strong>technology + creativity</strong> to create
+              useful digital experiences.
+            </p>
+            <p>
+              My interests span programming, frontend development, graphic design, photography
+              and videography. I enjoy managing projects, organizing work and bringing ideas
+              from concept to completion.
+            </p>
+
+            <div class="stats">
+              <div><strong>08+</strong><span>Core Skills</span></div>
+              <div><strong>∞</strong><span>Ideas to Build</span></div>
+              <div><strong>100%</strong><span>Learning Mindset</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-heading center reveal">
+          <p class="section-label">02 / SKILLS</p>
+          <h2>My <span>toolkit</span></h2>
+          <p>Technologies and creative skills I use to turn ideas into reality.</p>
+        </div>
+
+        <div class="skills-grid">
+          <div class="skill-card reveal">
+            <div class="skill-icon">☕</div>
+            <h3>Java</h3><p>Programming & OOP</p>
+            <div class="skill-bar"><span style="width:82%"></span></div>
+          </div>
+          <div class="skill-card reveal">
+            <div class="skill-icon">C</div>
+            <h3>C / C++</h3><p>Logic & problem solving</p>
+            <div class="skill-bar"><span style="width:78%"></span></div>
+          </div>
+          <div class="skill-card reveal">
+            <div class="skill-icon">&lt;/&gt;</div>
+            <h3>HTML & CSS</h3><p>Responsive interfaces</p>
+            <div class="skill-bar"><span style="width:92%"></span></div>
+          </div>
+          <div class="skill-card reveal">
+            <div class="skill-icon">JS</div>
+            <h3>JavaScript</h3><p>Interactive web experiences</p>
+            <div class="skill-bar"><span style="width:84%"></span></div>
+          </div>
+          <div class="skill-card reveal">
+            <div class="skill-icon">✦</div>
+            <h3>Graphic Design</h3><p>Visual communication</p>
+            <div class="skill-bar"><span style="width:88%"></span></div>
+          </div>
+          <div class="skill-card reveal">
+            <div class="skill-icon">◎</div>
+            <h3>Photography</h3><p>Visual storytelling</p>
+            <div class="skill-bar"><span style="width:80%"></span></div>
+          </div>
+          <div class="skill-card reveal">
+            <div class="skill-icon">▶</div>
+            <h3>Videography</h3><p>Editing & storytelling</p>
+            <div class="skill-bar"><span style="width:76%"></span></div>
+          </div>
+          <div class="skill-card reveal">
+            <div class="skill-icon">✓</div>
+            <h3>Management</h3><p>Planning & execution</p>
+            <div class="skill-bar"><span style="width:86%"></span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section projects" id="projects">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="section-label">03 / PROJECTS</p>
+          <h2>Things I've <span>built</span></h2>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card reveal">
+            <div class="project-image image-one">
+              <span class="project-number">01</span>
+              <span class="project-tag">WEB DEVELOPMENT</span>
+            </div>
+            <div class="project-body">
+              <h3>Modern Landing Page</h3>
+              <p>A responsive landing page with smooth interactions, modern layout and mobile navigation.</p>
+              <div class="project-tech"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+              <a href="#" class="project-link" data-demo>View Project ↗</a>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-image image-two">
+              <span class="project-number">02</span>
+              <span class="project-tag">DESIGN + CODE</span>
+            </div>
+            <div class="project-body">
+              <h3>Creative Brand UI</h3>
+              <p>A visual interface concept combining graphic design principles with frontend development.</p>
+              <div class="project-tech"><span>UI</span><span>CSS</span><span>JS</span></div>
+              <a href="#" class="project-link" data-demo>View Project ↗</a>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-image image-three">
+              <span class="project-number">03</span>
+              <span class="project-tag">PROGRAMMING</span>
+            </div>
+            <div class="project-body">
+              <h3>Problem Solving App</h3>
+              <p>A programming-focused project built around algorithms, logic and clean user interaction.</p>
+              <div class="project-tech"><span>Java</span><span>C++</span><span>DSA</span></div>
+              <a href="#" class="project-link" data-demo>View Project ↗</a>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-image image-four">
+              <span class="project-number">04</span>
+              <span class="project-tag">CREATIVE</span>
+            </div>
+            <div class="project-body">
+              <h3>Visual Storytelling</h3>
+              <p>A photography and videography concept focused on composition, editing and storytelling.</p>
+              <div class="project-tech"><span>Photo</span><span>Video</span><span>Design</span></div>
+              <a href="#" class="project-link" data-demo>View Project ↗</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- RESUME -->
+    <section class="section resume-section" id="resume">
+      <div class="container">
+        <div class="resume-card reveal">
+          <div>
+            <p class="section-label">04 / RESUME</p>
+            <h2>Let's make your next idea <span>real.</span></h2>
+            <p>Download my resume to learn more about my skills, education, projects and experience.</p>
+          </div>
+          <a href="resume.pdf" download class="btn btn-primary">Download CV <span>↓</span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section contact" id="contact">
+      <div class="container">
+        <div class="section-heading center reveal">
+          <p class="section-label">05 / CONTACT</p>
+          <h2>Have an idea? <span>Let's talk.</span></h2>
+          <p>Send a message and I'll get back to you.</p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-info reveal">
+            <a href="jaiswalkesar2006@gmail.com" class="contact-item">
+              <span class="contact-icon">@</span>
+              <span><small>Email</small>jaiswalkesar2006@gmail.com</span>
+            </a>
+            <a href="https://www.linkedin.com/feed/" class="contact-item">
+              <span class="contact-icon">in</span>
+              <span><small>LinkedIn</small>https://www.linkedin.com/feed/</span>
+            </a>
+            <a href="#" class="contact-item">
+              <span class="contact-icon">GH</span>
+              <span><small>GitHub</small>github.com/yourusername</span>
+            </a>
+            <div class="availability">
+              <span class="pulse"></span> Open to learning & collaboration
+            </div>
+          </div>
+
+          <form class="contact-form glass reveal" id="contactForm" novalidate>
+            <div class="form-row">
+              <div class="field">
+                <label for="name">Name</label>
+                <input id="name" name="name" type="text" placeholder="Your name">
+                <small class="error" id="nameError"></small>
+              </div>
+              <div class="field">
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" placeholder="you@example.com">
+                <small class="error" id="emailError"></small>
+              </div>
+            </div>
+            <div class="field">
+              <label for="subject">Subject</label>
+              <input id="subject" name="subject" type="text" placeholder="What would you like to discuss?">
+              <small class="error" id="subjectError"></small>
+            </div>
+            <div class="field">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="6" placeholder="Tell me about your idea..."></textarea>
+              <small class="error" id="messageError"></small>
+            </div>
+            <button type="submit" class="btn btn-primary submit-btn">Send Message <span>↗</span></button>
+            <p class="form-success" id="formSuccess">✓ Message validated successfully. Connect this form to your backend/email service to receive submissions.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a href="#home" class="logo"><span>&lt;</span>Dev<span>/&gt;</span></a>
+      <p>© <span id="year"></span> All rights reserved.</p>
+    </div>
+  </footer>
+
+  <button class="back-top" id="backTop" aria-label="Back to top">↑</button>
+  <div class="toast" id="toast">Project links are ready for you to customize.</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
